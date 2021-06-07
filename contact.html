@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ina-Den`s website</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="js/jquery.captcha.basic.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#contact-form").captcha();
+      });
+    </script>
+
+    <!-- form reset script -->
+    <script>
+      function submitForm() {
+        document.getElementById("contact-form").dispatchEvent( new Event( 'submit' ) );
+        document.getElementById("name-input").value = "";
+        document.getElementById("subject-input").value = "";
+        document.getElementById("message-input").value = "";
+      }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <script src="js/load_nav_footer.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav" id="nav"></nav>
+
+    <!-- Main content -->
+    <div class="contact-section">
+      <form
+        class="contact"
+        action="https://app.99inbound.com/api/e/8nrHC5HQ"
+        method="POST"
+        target="_blank"
+        id="contact-form"
+      >
+        <!-- honeypot field to prevent spam -->
+        <div style="position: absolute; left: -5000px">
+          <input
+            type="checkbox"
+            name="generous_mauve_wavy_bowl"
+            value="1"
+            tabindex="-1"
+            autocomplete="no"
+          />
+        </div>
+
+        <h2>Get in touch</h2>
+        <div class="socials-container local-socials">
+          <div class="popup">
+            <p class="discord-link" id="discord-link">Ina Den #1062</p>
+            <span class="popuptext" id="myPopup">Copied!</span>
+          </div>
+          <a
+            class="twitter-link"
+            href="https://twitter.com/Ina_den_"
+            target="_blank"
+            >@Ina_den_</a
+          >
+        </div>
+        <label for="name-input">Name</label>
+        <input
+          type="text"
+          id="name-input"
+          name="name"
+          placeholder="John"
+          required
+        />
+
+        <label for="subject-input">Subject</label>
+        <input
+          type="text"
+          id="subject-input"
+          name="subject"
+          placeholder="Comission"
+          required
+        />
+
+        <label for="message-input">Message</label>
+        <textarea
+          id="message-input"
+          name="message"
+          placeholder="Text"
+          required
+        ></textarea>
+
+        <input
+          class="btn btn-primary"
+          id="submit-form-btn"
+          type="submit"
+          value="Submit"
+        />
+      </form>
+      <img src="assets/full_piece/piece3.jpg" alt="" />
+    </div>
+    <footer class="footer" id="footer"></footer>
+
+    <script>
+      var my_form = document.getElementById("submit-form-btn");
+      my_form.addEventListener("click", submitForm);
+    </script>
+
+    <script src="js/toggle_navbar.js"></script>
+    <script src="js/clipboard_copy.js"></script>
+    <script src="js/notification_press.js"></script>
+  </body>
+</html>
