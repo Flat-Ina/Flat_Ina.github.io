@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="assets/flavicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ina-Den`s website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="nav abs-nav" id="nav"></nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+      <div class="hero-wrapper">
+        <h1>Ina-Den</h1>
+        <h2>Traditional and Digital Artist</h2>
+        <p>
+          I am a very cool dude and this is a short description of who I am and
+          what I do. And why Japan is so cool.
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-secondary"
+            onclick="location.href='gallery.html'"
+            type="button"
+          >
+            My works
+          </button>
+
+          <button
+            class="btn btn-primary"
+            onclick="location.href='contact.html'"
+            type="button"
+          >
+            Contact me
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio/Specialties Section -->
+    <div class="portfolio-wrapper">
+      <section class="portfolio">
+        <h2>Specialties</h2>
+
+        <div class="card-wrapper">
+          <div class="card">
+            <a href="gallery.html"
+              ><img src="assets/profile_picture/pfp1.jpg" alt="anime girl" />
+              <div class="card-text">Anime</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="gallery.html"
+              ><img src="assets/paint/painting1.jpg" alt="oil painting" />
+              <div class="card-text">Oil Paint Style</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="gallery.html"
+              ><img src="assets/other/other1.jpg" alt="monster" />
+              <div class="card-text">Monsters</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="gallery.html"
+              ><img src="assets/other/mech.jpg" alt="mech" />
+              <div class="card-text">Mechs</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="gallery.html"
+              ><img src="assets/other/other3.jpg" alt="line art" />
+              <div class="card-text">Line Art</div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="gallery.html"
+              ><img src="assets/half_full_body/body7.jpg" alt="meme" />
+              <div class="card-text">Memes</div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer"></footer>
+
+    <script src="js/load_nav_footer.js"></script>
+    <script src="js/toggle_navbar.js"></script>
+    <script src="js/clipboard_copy.js"></script>
+    <script src="js/notification_press.js"></script>
+  </body>
+</html>

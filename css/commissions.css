@@ -1,0 +1,93 @@
+body {
+  background: var(--gradient-end-clr);
+  color: black;
+  font-weight: 300;
+}
+
+#hamburger {
+  background: var(--hamburger-light-clr);
+}
+
+body h1 {
+  align-self: flex-start;
+  font-size: clamp(2rem, 9vw, 3rem);
+  margin: 1rem 0;
+  font-weight: 300;
+  color: white;
+}
+
+body h2 {
+  align-self: flex-start;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 300;
+  color: white;
+}
+
+.comm-text p {
+  color: white;
+}
+.nav__links li a {
+  color: white;
+}
+
+.commissions-container {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card-wrapper {
+  width: 100%;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(minmax(200px, 350px), minmax(0, 1fr))
+  );
+  justify-items: start;
+  align-items: stretch;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  text-align: center;
+  background-color: #98ead3;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.last-card {
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.card h3 {
+  padding: 0.5rem 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.card img {
+  display: block;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card p {
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+@media screen and (max-width: 769px) {
+  .card-wrapper {
+    justify-items: center;
+  }
+}
+
+.btn {
+  margin: 2rem 0;
+}
+
+.btn-primary {
+  margin-bottom: 8rem;
+}
