@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="menu.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1312"
+     inkscape:window-height="894"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="1.3964844"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="626"
+     inkscape:window-y="115"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M256 0C114.837 0 0 114.837 0 256C0 397.163 114.837 512 256 512C397.163 512 512 397.163 512 256C512 114.837 397.163 0 256 0ZM362.667 362.667H149.333C137.536 362.667 128 353.11 128 341.334C128 329.558 137.536 320.001 149.333 320.001H362.666C374.463 320.001 383.999 329.558 383.999 341.334C384 353.109 374.464 362.667 362.667 362.667ZM362.667 277.333H149.333C137.536 277.333 128 267.776 128 256C128 244.224 137.536 234.667 149.333 234.667H362.666C374.463 234.667 383.999 244.224 383.999 256C383.999 267.776 374.464 277.333 362.667 277.333ZM362.667 192H149.333C137.536 192 128 182.443 128 170.667C128 158.891 137.536 149.334 149.333 149.334H362.666C374.463 149.334 383.999 158.891 383.999 170.667C383.999 182.443 374.464 192 362.667 192Z"
+     fill="#565656"
+     id="path2"
+     style="fill:#000000" />
+</svg>

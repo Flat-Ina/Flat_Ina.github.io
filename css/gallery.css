@@ -1,0 +1,117 @@
+body {
+  background: var(--gradient-end-clr);
+  color: white;
+  font-weight: 300;
+}
+
+.nav__links li a {
+  color: white;
+}
+
+#hamburger {
+  background: var(--hamburger-light-clr);
+}
+
+body h1 {
+  align-self: flex-start;
+  font-size: clamp(2rem, 9vw, 3rem);
+  font-weight: 300;
+  color: white;
+  margin-left: 10%;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 100px 300px;
+  gap: 10px;
+  grid-auto-flow: dense;
+  margin: 2.5% 10%;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.gallery-item .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery-item .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  transition: 0.25s ease-in-out;
+}
+.gallery-item:hover .image img {
+  transform: scale(1.25);
+}
+
+.w-1 {
+  grid-column: span 1;
+}
+.w-2 {
+  grid-column: span 2;
+}
+.w-3 {
+  grid-column: span 3;
+}
+.w-4 {
+  grid-column: span 4;
+}
+.w-5 {
+  grid-column: span 5;
+}
+.w-6 {
+  grid-column: span 6;
+}
+
+.h-1 {
+  grid-row: span 1;
+}
+.h-2 {
+  grid-row: span 2;
+}
+.h-3 {
+  grid-row: span 3;
+}
+.h-4 {
+  grid-row: span 4;
+}
+.h-5 {
+  grid-row: span 5;
+}
+.h-6 {
+  grid-row: span 6;
+}
+.h-7 {
+  grid-row: span 7;
+}
+.h-8 {
+  grid-row: span 8;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .w-1,
+  .w-2,
+  .w-3,
+  .w-4,
+  .w-5,
+  .w-6 {
+    grid-column: span 1;
+  }
+}
+
+.mb {
+  margin-bottom: 8rem;
+}
